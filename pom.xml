@@ -9,6 +9,8 @@
 
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <!-- Dependencies -->
     <dependencies>
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -17,13 +19,18 @@
         </dependency>
     </dependencies>
 
+    <!--Properties file -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <!-- Project Modules -->
     <modules>
         <module>Maven2</module>
     </modules>
-<distributionManagement>
+
+    <!-- Distribution Management -->
+    <distributionManagement>
     <repository>
         <id>Git</id>
         <url>https://github.com/24digital/Maven_Test</url>
@@ -34,6 +41,7 @@
     </site>
 </distributionManagement>
 
+    <!-- Build Phase -->
     <build>
 
 <plugins>
@@ -57,5 +65,7 @@
 
     </plugin>
 </plugins>
-    </build>
+    </buil
+
+            d>
 </project>
