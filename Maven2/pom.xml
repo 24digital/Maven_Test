@@ -12,5 +12,26 @@
     <artifactId>Maven2</artifactId>
 <packaging>jar</packaging>
 
-    
+
+    <!-- Repository settings -->
+    <repositories>
+        <repository>
+            <id>Git</id>
+            <url>https://github.com/24digital/Maven_Test</url>
+            <name>Test Maven Deploy</name>
+        </repository>
+    </repositories>
+
+ <!-- Profiles -->
+  <profiles>
+      <profile>
+          <id>Test</id>
+      </profile>
+  </profiles>
+
+    <build>
+        <plugins>
+
+        </plugins>
+    </build>
 </project>
